@@ -2,12 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
+    buildToolsVersion '27.0.2'
     defaultConfig {
         applicationId "eu.faircode.email"
         minSdkVersion 23
-        targetSdkVersion 28
-        versionCode 29
-        versionName "0.29"
+        targetSdkVersion 27
+        versionCode 28
+        versionName "0.28"
         archivesBaseName = "FairEmail-v$versionName"
 
         javaCompileOptions {
