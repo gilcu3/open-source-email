@@ -260,7 +260,7 @@ public class FragmentAccount extends FragmentEx {
                         isession.setDebug(true);
                         IMAPStore istore = null;
                         try {
-                            istore = (IMAPStore) isession.getStore("imaps");
+                            istore = (IMAPStore) isession.getStore("imap");
                             istore.connect(host, Integer.parseInt(port), user, password);
 
                             if (!istore.hasCapability("UIDPLUS"))
@@ -485,7 +485,7 @@ public class FragmentAccount extends FragmentEx {
                             isession.setDebug(true);
                             IMAPStore istore = null;
                             try {
-                                istore = (IMAPStore) isession.getStore("imaps");
+                                istore = (IMAPStore) isession.getStore("imap");
                                 istore.connect(host, Integer.parseInt(port), user, password);
 
                                 if (!istore.hasCapability("UIDPLUS"))

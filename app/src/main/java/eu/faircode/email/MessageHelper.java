@@ -83,7 +83,7 @@ public class MessageHelper {
         props.put("mail.smtps.writetimeout", "20000"); // one thread overhead
         props.put("mail.smtps.timeout", "20000");
 
-        props.put("mail.smtp.ssl.checkserveridentity", "true");
+        //props.put("mail.smtp.ssl.checkserveridentity", "true");
         props.put("mail.smtp.ssl.trust", "*");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.starttls.required", "true");

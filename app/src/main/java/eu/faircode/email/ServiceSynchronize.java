@@ -407,7 +407,7 @@ public class ServiceSynchronize extends LifecycleService {
             isession.setDebug(debug);
             // adb -t 1 logcat | grep "fairemail\|System.out"
 
-            final IMAPStore istore = (IMAPStore) isession.getStore("imaps");
+            final IMAPStore istore = (IMAPStore) isession.getStore("imap");
             final Map<EntityFolder, IMAPFolder> folders = new HashMap<>();
             List<Thread> noops = new ArrayList<>();
             List<Thread> idlers = new ArrayList<>();
